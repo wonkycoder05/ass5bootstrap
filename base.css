@@ -1,0 +1,41 @@
+            
+    
+            .title{
+                font-family: "LEMONMILK-Bold", sans-serif;
+                text-align: center;
+                font-size: xx-large;
+                color: burlywood;
+            }
+    
+            body{
+                font-family:"zh-cn", sans-serif ;
+                text-align: justify;
+                color: rgb(255, 255, 255);
+                margin-left: 20px ;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                
+                
+            }
+    
+            
+            body {
+                background-image: url('https://images.pexels.com/photos/6985260/pexels-photo-6985260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') ;
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 100%;
+                overflow:scroll;
+                table-layout: auto;
+                margin:0;
+            }
+            table, th, td {
+                border: 1px solid white;
+                border-collapse: collapse;
+                table-layout: auto;
+                margin:0
+              }
+              th, td {
+                background-color: #96D4D4;
+              }
